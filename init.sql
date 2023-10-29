@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS entries (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(50),
+    text VARCHAR(500)
+);

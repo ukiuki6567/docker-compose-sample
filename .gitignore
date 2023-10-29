@@ -1,0 +1,45 @@
+# バイトコードコンパイル済みのPythonファイル
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flaskのインスタンスフォルダ
+instance/
+
+# ログファイル
+*.log
+
+# データベース
+*.db
+*.sqlite
+
+# 環境変数を含むファイル
+.env
+
+# ディレクトリに作成されたDockerデータ
+db_data/
+
+# Dockerビルド出力
+dist/
+build/
+*.egg-info/
+
+# macOS関連
+.DS_Store
+
+# Windows関連
+Thumbs.db
+
+# Linux関連
+*~
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE/エディタ関連
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
