@@ -64,7 +64,7 @@ Dockerのインストールは、以下の手順に従って行います。詳�
 
 1. Dockerイメージをビルドし、コンテナを起動します。
     ```
-    docker-compose up --build
+    sudo docker compose up --build
     ```
     アプリケーションは、指定されたポート（例：http://[ホストVMのIP]:5000）でアクセス可能です。
 
